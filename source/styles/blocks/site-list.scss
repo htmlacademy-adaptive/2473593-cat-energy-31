@@ -1,0 +1,122 @@
+
+.site-list {
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 476px;
+    min-height: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.site-list__item {
+  @media (max-width: 767px) {
+    height: 66px;
+    text-align: center;
+    padding-top: 22px;
+    border-top: 1px solid #e6e6e6;
+  }
+
+  @media (min-width: $tablet-width) {
+    list-style-type: none;
+  }
+}
+
+.site-list__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $base-color-title;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item:not(:last-child) {
+    margin-right: 33px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__link--color-desktop {
+    color: #111111;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item--current::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 33px;
+    width: 64px;
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__item--current::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 2px;
+    width: 67px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item--current-catalog::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 97px;
+    width: 154px;
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__item--current-catalog::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 104px;
+    width: 171px;
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+

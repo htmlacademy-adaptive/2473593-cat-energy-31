@@ -1,0 +1,114 @@
+@media (min-width: $desktop-width) {
+  br {
+    display: none;
+  }
+}
+
+.promotions {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 299px;
+    height: 2px;
+    top: 50px;
+    background-color: #68b738;
+    z-index: -1;
+
+    @media (min-width: $tablet-width) {
+      top: 94px;
+      right: 0;
+      width: $tablet-width;
+    }
+
+    @media (min-width: $desktop-width) {
+      top: 114px;
+      width: 1440px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+    margin-bottom: 104px;
+    padding-left: 110px;
+  }
+}
+
+.promotions__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $base-color-title;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  width: 152px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 40px 0 0 0 #ffffff;
+
+
+  @media (min-width: $tablet-width) {
+    padding: 80px 0 66px 38px;
+    margin-left: 32px;
+    font-size: 32px;
+    line-height: 32px;
+    width: 240px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 96px 0 72px 40px;
+    font-size: 40px;
+    line-height: 40px;
+    width: 293px;
+    margin-left: -39px;
+  }
+}
+
+.promotions__info {
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $base-color-title;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-width) {
+    width: 632px;
+    margin-left: 68px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1290px;
+    margin-left: -33px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .promotions__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.promotions__button {
+  height: 56px;
+  font-size: 20px;
+  line-height: 26px;
+
+  @media (min-width: $tablet-width) {
+    width: 256px;
+  }
+}

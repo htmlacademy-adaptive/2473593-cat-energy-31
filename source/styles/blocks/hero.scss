@@ -1,0 +1,133 @@
+
+.hero {
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 796px;
+    align-items: start;
+    justify-content: flex-start;
+    margin-bottom: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+    min-height: 607px;
+  }
+}
+
+.hero__container {
+  position: relative;
+  width: 320px;
+  background-position: center;
+  min-height: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: rgba(104, 183, 56, 0.85);
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/index-background-mobile@1x.jpg" 1x, "../../images/index-background-mobile@2x.jpg" 2x);
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    min-height: 180px;
+    align-items: start;
+    padding-left: 120px;
+    background-color: transparent;
+    gap: 40px;
+    background-image: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 80px;
+  }
+}
+
+.hero__image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55%;
+
+  @media (min-width: $tablet-width) {
+    z-index: -1;
+    top: 89%;
+    left: 54%;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: -10%;
+    left: 102%;
+    z-index: 2;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .button .hero__program-button {
+    width: 244px;
+    height: 54px;
+  }
+}
+
+.hero__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  width: 250px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-top: 27px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    text-align: start;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 53px;
+    color: #000000;
+    width: 416px;
+  }
+}
+
+.hero__text {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 12px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .hero__program-button {
+    width: 244px;
+    height: 54px;
+    margin-left: 120px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero__program-button {
+    margin-left: 80px;
+  }
+}
