@@ -19,7 +19,7 @@
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-    height: 169px;
+    min-height: 169px;
     padding: 0 110px;
   }
 }
@@ -45,6 +45,7 @@
 .footer__social-list {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 62px;
@@ -52,8 +53,9 @@
   padding-bottom: 8px;
 
   @media (min-width: $tablet-width) {
-    padding-left: 41px;
+    padding-left: 35px;
     padding-top: 7px;
+    width: 300px;
   }
 
   &::before {
@@ -85,9 +87,6 @@
     opacity: 0.6;
   }
 
-  &:active {
-    opacity: 0.6;
-  }
 
   &::before {
     content: "";
@@ -101,12 +100,11 @@
     &::before {
       display: none;
     }
-    width: 168px;
+    width: 164px;
     height: 37px;
     align-items: center;
-    padding: 0;
     margin-bottom: 2px;
-    padding-left: 7px;
+    padding: 0;
   }
 }
 
@@ -122,16 +120,16 @@
 
 .footer__social-link--vk {
   display: block;
-  width: 28px;
-  height: 22px;
+  width: 30px;
+  height: 21px;
   mask-image: url("../../icons/stack.svg#social-vk");
-  mask-size: 28px 19px;
+  mask-size: 30px 21px;
   mask-repeat: no-repeat;
   background-color: #666666;
   mask-position: center center;
 
   @media (min-width: $tablet-width) {
-    mask-size: 28px 22px;
+    mask-size: 30px 21px;
   }
 }
 

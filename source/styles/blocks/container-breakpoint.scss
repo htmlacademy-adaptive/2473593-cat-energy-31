@@ -1,0 +1,11 @@
+.container-breakpoint {
+  background-color: #f2f2f2;
+}
+
+.container-breakpoint--example {
+  background-color: #eaeaea;
+
+  @media (min-width: $tablet-width) {
+    background-color: transparent;
+  }
+}

@@ -7,7 +7,9 @@
   &::before {
     content: "";
     position: absolute;
-    width: 299px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    left: 1px;
     height: 2px;
     top: 10px;
     background-color: #68b738;
@@ -16,11 +18,9 @@
     @media (min-width: $tablet-width) {
       top: 15px;
       right: -30px;
-      width: $tablet-width;
     }
 
     @media (min-width: $desktop-width) {
-      width: 1440px;
       right: 0;
       top: 19px;
     }
@@ -44,7 +44,7 @@
   line-height: 24px;
   margin-bottom: 36px;
   width: 226px;
-  box-shadow: 40px 0 0 0 #ffffff;
+  box-shadow: 40px 0 0 0 #ffffff, -20px 0 0 0 #ffffff;
   background-color: #ffffff;
 
   @media (min-width: $tablet-width) {
@@ -141,7 +141,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .add__product-wrapper {
+  .add-product__wrapper {
     display: flex;
     gap: 81px;
   }

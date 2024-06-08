@@ -1,9 +1,10 @@
-.br__tablet {
+
+.functions__br {
   display: none;
 }
 
 @media (min-width: $tablet-width) {
-  .br__tablet {
+  .functions__br {
     display: block;
   }
 }
@@ -14,7 +15,6 @@
 
   @media (min-width: $tablet-width) {
     width: 768px;
-    border-bottom: 1px solid #e6e6e6;
     margin: 0;
     padding-left: 30px;
   }
@@ -22,7 +22,6 @@
   @media (min-width: $desktop-width) {
     width: 1220px;
     padding-left: 110px;
-    border: none;
   }
 }
 
@@ -40,19 +39,22 @@
     flex-direction: unset;
     width: 633px;
     justify-content: space-between;
+    align-items: start;
     gap: 37px;
     padding-bottom: 47px;
     margin-bottom: 9px;
     counter-reset: number 0;
-    border-bottom: 1px solid #e6e6e6;
   }
 
   @media (min-width: $desktop-width) {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: start;
     width: 1224px;
     margin-bottom: 46px;
     padding-bottom: 35px;
     border: none;
+    justify-content: stretch;
+    column-gap: 76px;
   }
 }
 
@@ -65,7 +67,8 @@
   @media (min-width: $tablet-width) {
     position: relative;
     width: 249px;
-    height: 280px;
+    min-height: 280px;
+    gap: 31px;
     flex-direction: column;
     align-items: start;
     justify-content: center;
@@ -88,7 +91,6 @@
     }
   }
 }
-
 
 .functions__title {
   font-family: "Oswald", "Arial", sans-serif;
@@ -158,4 +160,3 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-

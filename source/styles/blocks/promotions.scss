@@ -1,5 +1,5 @@
 @media (min-width: $desktop-width) {
-  br {
+  .promotions__br {
     display: none;
   }
 }
@@ -13,7 +13,9 @@
   &::before {
     content: "";
     position: absolute;
-    width: 299px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    left: 1px;
     height: 2px;
     top: 50px;
     background-color: #68b738;
@@ -22,12 +24,10 @@
     @media (min-width: $tablet-width) {
       top: 94px;
       right: 0;
-      width: $tablet-width;
     }
 
     @media (min-width: $desktop-width) {
       top: 114px;
-      width: 1440px;
     }
   }
 
@@ -53,7 +53,7 @@
   padding-top: 40px;
   padding-bottom: 32px;
   background-color: #ffffff;
-  box-shadow: 40px 0 0 0 #ffffff;
+  box-shadow: 40px 0 0 0 #ffffff, -20px 0 0 0 #ffffff;
 
 
   @media (min-width: $tablet-width) {

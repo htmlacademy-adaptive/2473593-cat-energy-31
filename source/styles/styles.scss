@@ -7,6 +7,8 @@
 
 /* BLOCKS */
 
+@import "./blocks/container-breakpoint.scss";
+@import "./blocks/container-fix.scss";
 @import "./blocks/button.scss";
 @import "./blocks/page.scss";
 @import "./blocks/main-header.scss";
@@ -27,4 +29,3 @@
 @import "./blocks/add-components.scss";
 @import "./blocks/promotions.scss";
 @import "./blocks/subscribe.scss";
-

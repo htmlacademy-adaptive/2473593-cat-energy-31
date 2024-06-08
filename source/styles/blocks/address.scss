@@ -1,23 +1,49 @@
 
 .address {
-  width: 320px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
 
-.address__map {
-  width: 320px;
+.address__map-container {
+  margin: 0 auto;
   height: 362px;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    height: 400px;
+  }
+}
+
+.address__map {
+  width: 100vw;
+  height: 362px;
+
+  @media (min-width: $tablet-width) {
     height: 400px;
     margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
+    height: 400px;
+  }
+}
+
+.address__map-nojs {
+  background-image: url("../../images/map-nojs/map-mobile@1x.png");
+  width: 320px;
+  height: 362px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../../images/map-nojs/map-tablet@1x.png");
+    width: 768px;
+    height: 400px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../../images/map-nojs/map-desktop@1x.png");
     width: 1440px;
     height: 400px;
   }
@@ -115,21 +141,37 @@
 
 .address__image {
   position: absolute;
-  bottom: 169px;
+  bottom: -200px;
+  right: 126px;
 
   @media (min-width: $tablet-width) {
-    bottom: 143px;
-    right: -126px;
+    bottom: -215px;
+    right: 327px;
   }
 
   @media (min-width: $desktop-width) {
     top: 120px;
-    right: -466px;
+    right: 635px;
   }
 }
 
-@media (max-width: 1439px) {
-  .address__container--catalog {
+.address__container--catalog {
+  @media (min-width: $mobile-width) {
     background-color: #f2f2f2;
+  }
+
+  @media (min-width: $mobile-width) and (max-width: 1439px) {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    justify-content: center;
+  }
+
+  @media (min-width: $tablet-width) and (max-width: 1439px) {
+    gap: 308px;
+    padding: 0 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: #ffffff;
   }
 }
