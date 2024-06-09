@@ -4,10 +4,10 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: $tablet-width;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: $desktop-width;
   }
 }

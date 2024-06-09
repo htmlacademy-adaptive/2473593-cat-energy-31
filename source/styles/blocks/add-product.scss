@@ -31,7 +31,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: $desktop-width;
     padding-left: 110px;
   }
 }

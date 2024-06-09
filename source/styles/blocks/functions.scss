@@ -14,7 +14,7 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: $tablet-width;
     margin: 0;
     padding-left: 30px;
   }

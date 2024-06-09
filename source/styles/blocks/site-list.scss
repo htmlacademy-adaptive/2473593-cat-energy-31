@@ -14,7 +14,7 @@
 }
 
 .site-list__item {
-  @media (max-width: 767px) {
+  @media (max-width: $only-mobile) {
     height: 66px;
     text-align: center;
     padding-top: 22px;

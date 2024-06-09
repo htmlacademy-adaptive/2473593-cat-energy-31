@@ -12,7 +12,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: $only-mobile) {
   .nav--open .nav__toggle {
     width: 18px;
     height: 18px;
@@ -25,7 +25,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: $only-mobile) {
   .nav--close .nav__toggle {
     mask-image: url("../../icons/stack.svg#icon-toggle");
     mask-repeat: no-repeat;
@@ -33,13 +33,13 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $only-mobile) {
   .nav--open .site-list {
     display: block;
     list-style-type: none;
     position: absolute;
     z-index: 5;
-    width: 320px;
+    width: $mobile-width;
     background-color: #ffffff;
     right: -20px;
     top: 45px;
@@ -47,13 +47,13 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $only-mobile) {
   .nav--close .site-list {
     display: none;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $only-mobile) {
   .nav--nojs {
     position: static;
     z-index: 1;
@@ -69,7 +69,7 @@
     display: block;
     position: static;
     min-height: 0;
-    width: 320px;
+    width: $mobile-width;
   }
 
   .nav--nojs .site-list__item {
