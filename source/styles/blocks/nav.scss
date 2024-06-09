@@ -40,7 +40,7 @@
     position: absolute;
     z-index: 5;
     width: $mobile-width;
-    background-color: #ffffff;
+    background-color: $secondary-bg-color;
     right: -20px;
     top: 45px;
     height: 198px;
@@ -58,7 +58,7 @@
     position: static;
     z-index: 1;
     top: 64px;
-    background-color: #ffffff;
+    background-color: $secondary-bg-color;
   }
 
   .nav--nojs .nav__toggle {

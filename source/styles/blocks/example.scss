@@ -1,5 +1,5 @@
 .example {
-  background-color: #eaeaea;
+  background-color: $example-bg-color;
   min-height: 659px;
   margin: 0 auto;
   position: relative;
@@ -7,7 +7,7 @@
 
   @media (min-width: $tablet-width) {
     min-width: $tablet-width;
-    background-color: #ffffff;
+    background-color: $secondary-bg-color;
     padding-top: 45px;
     border-top: 1px solid $border-color;
   }
@@ -23,7 +23,7 @@
 
 @media (min-width: $tablet-width) {
   .example__background-desktop {
-    background-color: #eaeaea;
+    background-color: $example-bg-color;
     min-height: 462px;
     position: absolute;
     top: 619px;
@@ -34,7 +34,7 @@
 
 @media (min-width: $desktop-width) {
   .example__background-desktop {
-    background-color: #f2f2f2;
+    background-color: $third-bg-color;
     min-height: 462px;
     position: absolute;
     top: 136px;
@@ -139,7 +139,7 @@
   font-size: 24px;
   line-height: 24px;
   color: $base-color-title;
-  border: 1px solid #cdcdcd;
+  border: 1px solid $catalog-border;
   border-radius: 3px;
   height: 56px;
   padding-top: 14px;
@@ -155,18 +155,18 @@
 
 .example__results-explanaction {
   margin: -17px;
-  background-color: #eaeaea;
+  background-color: $example-bg-color;
   width: 77px;
   margin-left: 22px;
 
   @media (min-width: $tablet-width) {
     min-width: 139px;
-    background-color: #ffffff;
+    background-color: $secondary-bg-color;
     margin-left: 10px;
   }
 
   @media (min-width: $desktop-width) {
-    background-color: #f2f2f2;
+    background-color: $third-bg-color;
   }
 }
 

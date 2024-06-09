@@ -32,7 +32,7 @@
 
 .advantages__info {
   display: block;
-  background-color: #f2f2f2;
+  background-color: $third-bg-color;
   width: 280px;
   min-height: 266px;
 
@@ -174,7 +174,7 @@
   padding-left: 1px;
   margin-top: 23px;
   margin-left: 20px;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid $color-line;
   width: 240px;
 
   @media (min-width: $tablet-width) {

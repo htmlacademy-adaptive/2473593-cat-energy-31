@@ -81,7 +81,7 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  color: #ffffff;
+  color: $third-color-text;
   padding-top: 27px;
   text-align: center;
 
@@ -100,7 +100,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
+  color: $third-color-text;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {

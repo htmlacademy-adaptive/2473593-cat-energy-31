@@ -45,7 +45,7 @@
   margin-bottom: 36px;
   width: 226px;
   box-shadow: 40px 0 0 0 #ffffff, -20px 0 0 0 #ffffff;
-  background-color: #ffffff;
+  background-color: $secondary-bg-color;
 
   @media (min-width: $tablet-width) {
     font-size: 32px;
@@ -107,7 +107,7 @@
 .add-product__surprise-info {
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
+  color: $third-color-text;
   text-align: center;
 
   @media (min-width: $tablet-width) {

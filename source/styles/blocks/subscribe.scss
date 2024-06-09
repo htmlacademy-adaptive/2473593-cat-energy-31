@@ -8,7 +8,7 @@
   padding-left: 13px;
   width: 280px;
   height: 56px;
-  border: 1px solid #cdcdcd;
+  border: 1px solid $catalog-border;
   margin-bottom: 16px;
 
   @media (min-width: $tablet-width) {
@@ -27,6 +27,6 @@
   &:hover,
   &:active {
     outline-offset: -2px;
-    outline: 2px solid #bababa;
+    outline: 2px solid $outline-color;
   }
 }

@@ -4,7 +4,7 @@
   position: relative;
   width: $mobile-width;
   min-height: 240px;
-  background-color: #f2f2f2;
+  background-color: $third-bg-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,7 @@
     content: "";
     position: absolute;
     width: 280px;
-    border-top: 1px solid #d9d9d9;
+    border-top: 1px solid $color-line;
     top: 83px;
     padding: 0;
   }
@@ -92,7 +92,7 @@
     content: "";
     position: absolute;
     width: 280px;
-    border-top: 1px solid #d9d9d9;
+    border-top: 1px solid $color-line;
     bottom: 93px;
   }
 
@@ -125,7 +125,7 @@
   mask-image: url("../../icons/stack.svg#social-vk");
   mask-size: 30px 21px;
   mask-repeat: no-repeat;
-  background-color: #666666;
+  background-color: $color-icon;
   mask-position: center center;
 
   @media (min-width: $tablet-width) {
@@ -140,7 +140,7 @@
   mask-image: url("../../icons/stack.svg#social-youtube");
   mask-size: 24px 19px;
   mask-repeat: no-repeat;
-  background-color: #666666;
+  background-color: $color-icon;
   mask-position: center center;
 }
 
@@ -151,7 +151,7 @@
   mask-image: url("../../icons/stack.svg#social-telegram");
   mask-size: 19px 17px;
   mask-repeat: no-repeat;
-  background-color: #666666;
+  background-color: $color-icon;
   mask-position: center center;
 }
 
@@ -168,7 +168,7 @@
   width: 27px;
   height: 34px;
   mask-size: 27px 34px;
-  background-color: #666666;
+  background-color: $color-icon;
 }
 
 .footer__logo-htmlacademy:hover .footer__logo-icon-link {

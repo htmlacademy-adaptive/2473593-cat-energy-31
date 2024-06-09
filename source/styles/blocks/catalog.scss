@@ -59,7 +59,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 55px 48px 57px;
   padding: 20px 20px 25px;
-  // border-top: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
     border: none;
@@ -69,7 +68,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 161px 68px 84px 72px;
     justify-items: center;
-    background-color: #f2f2f2;
+    background-color: $third-bg-color;
   }
 
   @media (min-width: $desktop-width) {
@@ -119,7 +118,7 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 6px;
-    border-bottom: 1px solid #cdcdcd;
+    border-bottom: 1px solid $catalog-border;
     padding-bottom: 5px;
   }
 
@@ -187,7 +186,7 @@
 }
 
 .catalog__button-more {
-  background-color: #f2f2f2;
+  background-color: $third-bg-color;
   color: $base-color-text;
 }
 

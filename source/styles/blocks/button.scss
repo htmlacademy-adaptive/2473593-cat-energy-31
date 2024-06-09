@@ -4,7 +4,7 @@
   height: 40px;
   background-color: $base-bg-color;
   border: none;
-  color: #ffffff;
+  color: $third-color-text;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -13,10 +13,10 @@
 }
 
 .button:hover {
-  background-color: #5eaa2f;
+  background-color: $button-hover;
 }
 
 .button:active {
-  background-color: #5eaa2f;
+  background-color: $button-hover;
   color: rgba(255, 255, 255, 0.3);
 }

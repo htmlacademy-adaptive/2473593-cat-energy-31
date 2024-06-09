@@ -52,7 +52,7 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
-    color: #ffffff;
+    color: $third-color-text;
   }
 }
 
@@ -64,7 +64,7 @@
 
 @media (min-width: $desktop-width) {
   .site-list__link--color-desktop {
-    color: #111111;
+    color: $secondary-color-title;
   }
 }
 
@@ -89,7 +89,7 @@
     left: 2px;
     width: 67px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: $secondary-bg-color;
   }
 }
 

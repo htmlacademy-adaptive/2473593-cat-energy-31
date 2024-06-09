@@ -4,6 +4,6 @@
 
 @media (max-width: $only-mobile) {
   .main-container--border {
-    border-top: 1px solid #d9d9d9;
+    border-top: 1px solid $color-line;
   }
 }
