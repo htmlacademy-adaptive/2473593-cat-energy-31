@@ -90,7 +90,7 @@
     font-size: 60px;
     line-height: 60px;
     padding-top: 53px;
-    color: #000000;
+    color: $base-color-title;
     width: 416px;
   }
 }
@@ -106,7 +106,7 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
-    color: #000000;
+    color: $base-color-title;
     padding-bottom: 10px;
   }
 

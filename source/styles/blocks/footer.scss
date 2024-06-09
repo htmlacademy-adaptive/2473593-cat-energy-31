@@ -110,11 +110,11 @@
 
 .footer__social-link:hover,
 .footer__social-link:focus-visible {
-  background-color: #68b738;
+  background-color: $base-bg-color;
 }
 
 .footer__social-link:active {
-  background-color: #68b738;
+  background-color: $base-bg-color;
   opacity: 0.4;
 }
 
@@ -159,7 +159,7 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  color: #444444;
+  color: $base-color-text;
 }
 
 .footer__logo-icon-link {
@@ -172,11 +172,11 @@
 }
 
 .footer__logo-htmlacademy:hover .footer__logo-icon-link {
-  background-color: #68b738;
+  background-color: $base-bg-color;
 }
 
 .footer__logo-icon-link:focus-visible {
-  background-color: #68b738;
+  background-color: $base-bg-color;
 }
 
 .footer__logo-text:focus-visible {

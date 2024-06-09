@@ -69,8 +69,8 @@
   transform: translate(-50%);
 
   &:hover {
-    color: #68b738;
-    border: 2px solid #68b738;
+    color: $base-bg-color;
+    border: 2px solid $base-bg-color;
   }
 
   &:active {
@@ -90,9 +90,9 @@
 }
 
 .slider__button:hover .slider__icon {
-  fill: #68b738;
-  stroke: #68b738;
-  border: 2px solid #68b738;
+  fill: $base-bg-color;
+  stroke: $base-bg-color;
+  border: 2px solid $base-bg-color;
   border-radius: 50%;
 }
 
