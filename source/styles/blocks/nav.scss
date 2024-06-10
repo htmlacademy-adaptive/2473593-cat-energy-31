@@ -85,10 +85,10 @@
     position: absolute;
     width: 100vw;
     height: 694px;
-    background-color: rgba(29, 38, 15, 0.87);
+    background-color: $nav-bg-color;
     top: -65px;
     left: -134px;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/index-background-desktop@1x.jpg" 1x, "../../images/index-background-desktop@2x.jpg" 2x);
+    background-image: linear-gradient($background-gradient, $background-gradient), image-set("../../images/index-background-desktop@1x.jpg" 1x, "../../images/index-background-desktop@2x.jpg" 2x);
     background-repeat: no-repeat;
     z-index: -1;
   }

@@ -44,7 +44,7 @@
   line-height: 24px;
   margin-bottom: 36px;
   width: 226px;
-  box-shadow: 40px 0 0 0 #ffffff, -20px 0 0 0 #ffffff;
+  box-shadow: 40px 0 0 0 $shadow-color, -20px 0 0 0 $shadow-color;
   background-color: $secondary-bg-color;
 
   @media (min-width: $tablet-width) {
@@ -61,12 +61,12 @@
     line-height: 40px;
     width: 416px;
     padding-left: 0;
-    box-shadow: -40px -1px #ffffff;
+    box-shadow: -40px -1px $shadow-color;
   }
 }
 
 .add-product__surprise {
-  background-color: rgba(104, 183, 56, 0.85);
+  background-color: $background-gradient;
   margin-top: 35px;
   padding-top: 14px;
   width: 280px;
@@ -76,7 +76,7 @@
   gap: 48px;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/surprise/image-surprise-mobile@1x.jpg" 1x, "../../images/surprise/image-surprise-mobile@2x.jpg" 2x);
+  background-image: linear-gradient($background-gradient, $background-gradient), image-set("../../images/surprise/image-surprise-mobile@1x.jpg" 1x, "../../images/surprise/image-surprise-mobile@2x.jpg" 2x);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -88,7 +88,7 @@
     padding: 0 125px 0 77px;
     margin-top: 0;
     justify-content: space-between;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/surprise/image-surprise-tablet@1x.jpg" 1x, "../../images/surprise/image-surprise-tablet@2x.jpg" 2x);
+    background-image: linear-gradient($background-gradient, $background-gradient), image-set("../../images/surprise/image-surprise-tablet@1x.jpg" 1x, "../../images/surprise/image-surprise-tablet@2x.jpg" 2x);
   }
 
   @media (min-width: $desktop-width) {
@@ -100,7 +100,7 @@
     padding-top: 17px;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/surprise/image-surprise-desktop@1x.jpg" 1x, "../../images/surprise/image-surprise-desktop@2x.jpg" 2x);
+    background-image: linear-gradient($background-gradient, $background-gradient), image-set("../../images/surprise/image-surprise-desktop@1x.jpg" 1x, "../../images/surprise/image-surprise-desktop@2x.jpg" 2x);
   }
 }
 

@@ -31,7 +31,7 @@
   align-items: center;
   gap: 25px;
   background-color: rgba(33, 51, 24, 0.86);
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), image-set("../../images/index-background-mobile@1x.jpg" 1x, "../../images/index-background-mobile@2x.jpg" 2x);
+  background-image: linear-gradient($background-gradient, $background-gradient), image-set("../../images/index-background-mobile@1x.jpg" 1x, "../../images/index-background-mobile@2x.jpg" 2x);
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
